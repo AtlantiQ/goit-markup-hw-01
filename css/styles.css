@@ -40,10 +40,14 @@ footer {
   color: var(--grey);
 }
 
+/* Site nav */
 .site-nav a {
   color: #212121;
 }
 .site-nav a:hover,
 .site-nav a:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
   color: #2196f3;
 }
