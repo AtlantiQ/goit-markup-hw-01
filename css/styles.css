@@ -4,6 +4,10 @@
 
 body {
   color: #212121;
+  font-family: 'Comfortaa', cursive;
+}
+ul {
+  list-style: none;
 }
 
 .page-header {
@@ -13,6 +17,9 @@ body {
 .head {
   background-color: #2f303a;
 }
+
+/* button */
+
 .button.primary {
   /* position: absolute; */
   width: 200px;
@@ -40,7 +47,16 @@ footer {
   color: var(--grey);
 }
 
+/* logo */
+.logo {
+}
+
 /* Site nav */
+.site-nav .link {
+  text-transform: uppercase;
+  font-family: 'Comfortaa', cursive;
+}
+
 .site-nav a {
   color: #212121;
 }
@@ -51,3 +67,14 @@ footer {
 .site-nav .link.current {
   color: #2196f3;
 }
+
+/* contact */
+.site-contact a {
+  color: #212121;
+}
+.site-contact a:hover,
+.site-contact a:focus {
+  color: #2196f3;
+}
+
+/* team */
