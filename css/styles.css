@@ -10,22 +10,23 @@ ul {
   list-style: none;
 }
 
-.page-header {
-  background-color: #ffffff;
-}
-
-.head {
-  background-color: #2f303a;
-}
-
 /* button */
+.head {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: #2f303a;
+  color: #ffffff;
+}
 
 .button.primary {
-  /* position: absolute; */
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+
   background-color: #2196f3;
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -43,23 +44,25 @@ footer {
   background-color: #2f303a;
 }
 
-.section p {
-  color: var(--grey);
-}
-
 /* logo */
-.logo {
+.page-header .logo {
+  color: teal;
+  text-decoration: none;
+}
+.page-header {
+  background-color: #ffffff;
 }
 
 /* Site nav */
 .site-nav .link {
-  text-transform: uppercase;
   font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+  text-decoration: none;
 }
 
-.site-nav a {
-  color: #212121;
-}
 .site-nav a:hover,
 .site-nav a:focus {
   color: #2196f3;
@@ -71,10 +74,46 @@ footer {
 /* contact */
 .site-contact a {
   color: #212121;
+  text-decoration: none;
 }
 .site-contact a:hover,
 .site-contact a:focus {
   color: #2196f3;
 }
 
+/* Чем мы занимаемся */
+.boxes {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* feature-list */
+.feature-list .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.feature-list .feature-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 /* team */
+
+.team p {
+  color: #757575;
+}
