@@ -17,9 +17,10 @@
 
     <!-- Шапка сайта -->
     <header class="page-header">
+        <!-- Навигация по сайту -->
         <nav>
             <ul>
-                <li ><a class="logo" href="">WebStudio</a></li>
+                <a class="logo-web link" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
             </ul>
 
 
@@ -31,9 +32,10 @@
 
             </ul>
         </nav>
+        <!-- Контакты -->
         <ul class="site-contact">
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
+            <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -42,15 +44,16 @@
             <ul>
                 <li>
                     <h1>Эффективные решения <br /> для вашего бизнеса</h1>
-                    <a href="" class="button primary" type="button">Заказать услугу</a>
-                    <!-- <button>type="button" class="button primary" Заказать услугу</button> -->
+                    <!-- <a href="" class="button primary" type="button">Заказать услугу</a> -->
+                    <button type="button" class="button primary"> Заказать услугу</button>
+                    
                 </li>
 
             </ul>
 
         </section>
 
-
+<!-- Особенности -->
         <section class="feature-list">
            <ul >
                 <li>
@@ -73,40 +76,60 @@
     </section>
 
 
-
+<!-- Перечень услуг -->
     <section class="boxes">
         <h2>Чем мы занимаемся</h2>
-
+<ul>
+    <li>
+        <a href="">
         <img src=" ./image/1.svg" alt="Coding" width="370">
+        </a>
+        </li>
+        <li>
+        <a href="">
                         <img src="./image/2.svg" alt="Mobile" width="370">
+                        </a>
+                        </li>
+                        <li>
+                        <a href="">
                         <img src="./image/3.svg" alt="Graphic" width="370">
+                        </a>
+                        </li>
+                        
+</ul>
+</section>
 
-        </section>
-
+<!-- Команда -->
         <section class="team">
+            <h2>Наша команда</h2>
             <ul>
-                <li>
-                    <h2>Наша команда</h2>
-                </li>
-                <li class="team-igor ">
+               <li class="team-igor ">
+                   <a href="">
                     <img src="./image/Игорь.svg" alt="Игорь Демьяниненко" width="270">
                     <h4>Игорь Демьяненко</h4>
                     <p>Product Designer</p>
+                    </a>
                 </li>
                 <li class="team-olga ">
+                    <a href="">
                     <img src="./image/Ольга.svg" alt="Ольга Репина" width="270">
                     <h4>Ольга Репина</h4>
                     <p>Frontend Developer</p>
+                    </a>
                 </li>
+                <a href="">
                 <li class="team-nikolai ">
                     <img src="./image/Николай.svg" alt="Николай Тарасов" width="270">
                     <h4>Николай Тарасов</h4>
                     <p>Marketing</p>
+                    </a>
                 </li>
+                <a href="">
                 <li class="team-mihail ">
                     <img src="./image/Михаил.svg" alt="Михаил Ермаков" width="270">
                     <h4>Михаил Ермаков</h4>
                     <p>UI Designer</p>
+                    </a>
                 </li> class="tittle"
 
             </ul>
@@ -116,11 +139,19 @@
 
     <!-- Футер -->
     <footer>
+        <a class="logo-web link" href="./index.html" ><span class="logo-blue">Web</span>Studio</a>
         <address>
-            <a href="">WebStudio</a>
+            <ul>
+                <li>
             г. Киев, пр-т Леси Украинки, 26 <br />
-            info@example.com<br />
-            +38 099 111 11 11<br />
+            </li>
+            <li>
+                <a class ="footer-adres" href="mailto:info@devstudio.com">info@example.com</a>
+            </li>
+            <li>
+                <a class ="footer-adres" href="tel:+380961111111">+38 099 111 11 11</a>
+            </li>
+           </ul>
         </address>
     </footer>
 

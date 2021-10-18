@@ -117,3 +117,14 @@ footer {
 .team p {
   color: #757575;
 }
+
+/* logo */
+.logo-blue {
+  color: #2196f3;
+}
+.logo-footer {
+  color: #f5f4fa;
+}
+.logo-header {
+  color: #212121;
+}
